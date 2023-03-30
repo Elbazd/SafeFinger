@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">arduino</string>
+    <string name="connection">Your Login</string>
+    <string name="Log"></string>
+    <string name="Pwd">Your Password</string>
+    <string name="Password"></string>
+    <string name="button">Send Information</string>
+</resources>
