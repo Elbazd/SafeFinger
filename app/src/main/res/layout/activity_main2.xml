@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/image"
     tools:context=".MainActivity2">
 
     <LinearLayout
@@ -23,7 +24,7 @@
                 android:layout_width="395dp"
                 android:layout_height="168dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/_000_f_267540347_qadjiv1psxy6g056wczhzz8ojlrf2oii" />
+                app:srcCompat="@drawable/img_1" />
         </LinearLayout>
 
         <LinearLayout
@@ -36,7 +37,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:text="Gestion des profils utilisateurs"
+                android:textAlignment="center"
+                android:textColor="#F6F6F6" />
         </LinearLayout>
 
         <LinearLayout
@@ -50,15 +53,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:backgroundTint="#000000"
+                android:text="Ajouter un utilisateur"
+                android:textColor="#FFC107" />
 
             <Button
                 android:id="@+id/btnCommande"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#673AB7"
-                android:text="Button" />
+                android:backgroundTint="#000000"
+                android:text="Modifier un utilisateur"
+                android:textColor="#FFC107" />
         </LinearLayout>
 
         <LinearLayout
@@ -73,20 +79,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnAuto"
-                android:layout_width="wrap_content"
-                android:layout_height="124dp"
-                android:layout_weight="1"
-                android:backgroundTint="#2196F3"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/btnApi"
-                android:layout_width="wrap_content"
-                android:layout_height="124dp"
-                android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
-                android:text="Button" />
+                android:id="@+id/btnSuppr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#000000"
+                android:text="Supprimer un utilisateur"
+                android:textColor="#FFC107" />
 
         </LinearLayout>
 
@@ -95,6 +93,6 @@
             android:layout_height="94dp"
             android:orientation="horizontal"></LinearLayout>
 
-    </LinearLayout>
+        </LinearLayout>
 
 </LinearLayout>

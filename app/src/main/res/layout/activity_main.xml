@@ -4,30 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/image"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="104dp"
-        app:srcCompat="@drawable/web_tracking" />
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/img_1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
         android:layout_marginBottom="65dp"
-        android:text="@string/connection" />
+        android:text="Votre identifiant"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Log" />
+        android:text="@string/Log"
+        android:textColorHint="#000000" />
 
     <TextView
         android:id="@+id/textView2"
@@ -35,21 +41,27 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="50dp"
-        android:text="@string/Pwd" />
+        android:text="Votre mot de passe"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextPwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Password" />
+        android:text="@string/Password"
+        android:textColorHint="#000000" />
 
     <Button
         android:id="@+id/btnconnect"
         android:layout_width="match_parent"
         android:layout_height="61dp"
-        android:text="@string/button" />
+        android:text="Se connecter"
+        android:textColorHint="#000000" />
 
 </LinearLayout>
